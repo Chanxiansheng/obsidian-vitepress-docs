@@ -3,6 +3,7 @@ import { generateSidebar } from 'vitepress-sidebar';
 
 
 const vitePressOptions = {
+  base: '/obsidian-vitepress-docs/',
   title: 'CHun先生的文档笔记',
   description: "一个自用的文档和笔记记录网站",
   themeConfig: {
