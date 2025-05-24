@@ -1,0 +1,1 @@
+import{_ as l,c as e,o as i,ag as t}from"./chunks/framework.-ewJmwvT.js";const n=JSON.parse('{"title":"前端技术","description":"","frontmatter":{},"headers":[],"relativePath":"前端技术/index.md","filePath":"前端技术/index.md"}'),h={name:"前端技术/index.md"};function r(S,a,u,c,o,m){return i(),e("div",null,a[0]||(a[0]=[t("",102)]))}const s=l(h,[["render",r]]);export{n as __pageData,s as default};

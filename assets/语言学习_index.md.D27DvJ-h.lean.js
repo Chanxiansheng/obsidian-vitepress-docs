@@ -1,1 +1,0 @@
-import{_ as h,c as t,o as e,ae as l}from"./chunks/framework.CIivgcbp.js";const c=JSON.parse('{"title":"语言学习","description":"","frontmatter":{},"headers":[],"relativePath":"语言学习/index.md","filePath":"语言学习/index.md"}'),r={name:"语言学习/index.md"};function o(i,a,n,p,d,s){return e(),t("div",null,a[0]||(a[0]=[l("",10)]))}const u=h(r,[["render",o]]);export{c as __pageData,u as default};

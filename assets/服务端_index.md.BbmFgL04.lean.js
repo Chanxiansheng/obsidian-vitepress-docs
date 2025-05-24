@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as i,ag as o}from"./chunks/framework.-ewJmwvT.js";const f=JSON.parse('{"title":"服务端","description":"","frontmatter":{},"headers":[],"relativePath":"服务端/index.md","filePath":"服务端/index.md"}'),h={name:"服务端/index.md"};function t(r,e,d,n,s,m){return i(),l("div",null,e[0]||(e[0]=[o("",37)]))}const N=a(h,[["render",t]]);export{f as __pageData,N as default};

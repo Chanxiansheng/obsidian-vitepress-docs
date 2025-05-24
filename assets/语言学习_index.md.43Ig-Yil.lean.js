@@ -1,0 +1,1 @@
+import{_ as l,c as h,o as t,ag as e}from"./chunks/framework.-ewJmwvT.js";const c=JSON.parse('{"title":"语言学习","description":"","frontmatter":{},"headers":[],"relativePath":"语言学习/index.md","filePath":"语言学习/index.md"}'),r={name:"语言学习/index.md"};function o(i,a,n,u,d,p){return t(),h("div",null,a[0]||(a[0]=[e("",12)]))}const _=l(r,[["render",o]]);export{c as __pageData,_ as default};
