@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,ae as t}from"./chunks/framework.CIivgcbp.js";const n=JSON.parse('{"title":"前端技术","description":"","frontmatter":{},"headers":[],"relativePath":"前端技术/index.md","filePath":"前端技术/index.md"}'),h={name:"前端技术/index.md"};function r(S,a,u,c,m,o){return e(),i("div",null,a[0]||(a[0]=[t("",84)]))}const s=l(h,[["render",r]]);export{n as __pageData,s as default};

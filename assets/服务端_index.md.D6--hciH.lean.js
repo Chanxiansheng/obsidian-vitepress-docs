@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as i,ae as h}from"./chunks/framework.CIivgcbp.js";const m=JSON.parse('{"title":"服务端","description":"","frontmatter":{},"headers":[],"relativePath":"服务端/index.md","filePath":"服务端/index.md"}'),o={name:"服务端/index.md"};function t(r,e,d,n,S,s){return i(),l("div",null,e[0]||(e[0]=[h("",28)]))}const J=a(o,[["render",t]]);export{m as __pageData,J as default};
