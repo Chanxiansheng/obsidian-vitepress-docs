@@ -9,6 +9,10 @@ const vitePressOptions = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
+      { text: '前端技术', link: '/前端技术/' },
+      { text: '服务端', link: '/服务端/' },
+      { text: '计算机基础', link: '/计算机基础课程/' },
+      { text: '语言学习', link: '/语言学习/' },
       { text: '工具说明书', link: '/工具说明书/' },
     ],
     socialLinks: [

@@ -7,11 +7,11 @@ hero:
   # tagline: My great project tagline
   actions:
     - theme: brand
-      text: 建站指南
-      link: /工具说明书/VitePress/基于 Obsidian 多 Vault + 软链接 + VitePress + GitHub Pages 自动化部署技术文档方案
+      text: 此站点建站指南
+      link: /工具说明书/VitePress/基于 Obsidian 多 Vault+ 软链接 +GitHubPages 的 VitePress 部署方案
     - theme: alt
       text: 笔记入口
-      link: /
+      link: /前端技术/
 
 features:
   - title: 用 Obsidian 写，用网页看

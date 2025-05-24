@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path ".\计算机基础课程" -Target "A:\!Ob个人仓库\D-学习笔记\计算机基础课程"

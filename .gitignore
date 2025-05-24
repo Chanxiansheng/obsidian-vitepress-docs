@@ -1,2 +1,4 @@
 node_modules
+
+# 忽略 gh-pages 分支目录
 /gh-pages/
