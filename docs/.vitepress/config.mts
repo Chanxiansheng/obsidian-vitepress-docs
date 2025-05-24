@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type UserConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar';
 
 
-const vitePressOptions = {
+const vitePressOptions: UserConfig = {
   base: '/obsidian-vitepress-docs/',
   title: 'CHun先生的文档笔记',
   description: "一个自用的文档和笔记记录网站",
@@ -20,12 +20,17 @@ const vitePressOptions = {
     ],
     sidebar: generateSidebar({
       documentRootPath: '/docs',
+      excludeFilesByFrontmatterFieldName: 'exclude',
       // scanStartPath: '/',
       // resolvePath: '../',
       // basePath: '../',
       collapsed: true,
       // debugPrint: true,
-    })
+    }),
+    search: {
+      provider: "local",
+      // options:{}
+    },
   },
   vite: {
     resolve: {
@@ -42,7 +47,7 @@ const vitePressOptions = {
         },
       }
     },
-    assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif'], // 忽略图片解析
+    assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.excalidraw'], // 忽略图片解析
   },
 };
 
