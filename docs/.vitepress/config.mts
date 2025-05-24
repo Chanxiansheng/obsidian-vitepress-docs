@@ -24,20 +24,25 @@ const vitePressOptions = {
       // resolvePath: '../',
       // basePath: '../',
       collapsed: true,
-      debugPrint: true,
+      // debugPrint: true,
     })
   },
   vite: {
-    // 允许软链接
     resolve: {
-      preserveSymlinks: true
+      preserveSymlinks: true // 允许软链接
     },
     // 屏蔽使用md文档中的vue解析器
     build: {
       rollupOptions: {
-        // external: ['vue', 'vue/server-renderer']
+        // 屏蔽使用md文档中的vue解析器
+        // external: ['vue', 'vue/server-renderer'],
+        // 排除 .pdf 文件被打包
+        external: (id) => {
+          return ['.pdf', '.zip', '.mp4'].some(ext => id.endsWith(ext))
+        },
       }
     },
+    assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif'], // 忽略图片解析
   },
 };
 

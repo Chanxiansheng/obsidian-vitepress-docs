@@ -1,4 +1,7 @@
 node_modules
 
+# 忽略 VitePress 构建输出目录
+docs/.vitepress/dist
+
 # 忽略 gh-pages 分支目录
 /gh-pages/
